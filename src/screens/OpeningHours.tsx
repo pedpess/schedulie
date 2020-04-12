@@ -1,10 +1,10 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { Text24 } from '../components/Theme';
 
-export function OpeningHours() {
+export function OpeningHours(): React.ReactElement {
   return (
-    <View>
-      <Text>Opening Hours</Text>
-     </View>
+    <>
+      <Text24>Opening Hours</Text24>
+    </>
   );
 }

@@ -1,6 +1,7 @@
-import React from "react";
-import styled from "styled-components/native";
-import { OpeningHours } from "./src/screens";
+import React from 'react';
+import styled from 'styled-components/native';
+import useCustomFont from './src/hooks/useCustomFont';
+import { OpeningHours } from './src/screens';
 
 const Container = styled.View`
   flex: 1;
@@ -8,7 +9,9 @@ const Container = styled.View`
   align-items: center;
 `;
 
-export default function App() {
+export default function App(): React.ReactElement {
+  useCustomFont();
+
   return (
     <Container>
       <OpeningHours />
