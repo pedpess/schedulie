@@ -1,0 +1,17 @@
+{
+  "name": "schedulie",
+  "displayName": "schedulie",
+  "expo": {
+    "name": "schedulie",
+    "slug": "schedulie",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
