@@ -1,14 +1,14 @@
-import { useState, useEffect } from "react";
-import * as Font from "expo-font";
+import { useState, useEffect } from 'react';
+import * as Font from 'expo-font';
 
-export default () => {
+export default (): boolean => {
   const [fontLoaded, setFontLoaded] = useState<boolean>(false);
 
-  function fetchCustomFonts() {
+  function fetchCustomFonts(): Promise<void> {
     return Font.loadAsync({
-      "roboto-bold": require("../../assets/fonts/Roboto-Bold.ttf"),
-      "roboto-medium": require("../../assets/fonts/Roboto-Medium.ttf"),
-      "roboto-regular": require("../../assets/fonts/Roboto-Regular.ttf"),
+      'roboto-bold': require('../../assets/fonts/Roboto-Bold.ttf'),
+      'roboto-medium': require('../../assets/fonts/Roboto-Medium.ttf'),
+      'roboto-regular': require('../../assets/fonts/Roboto-Regular.ttf'),
     });
   }
 
@@ -20,4 +20,4 @@ export default () => {
   }, [fontLoaded]);
 
   return fontLoaded;
-}
+};
