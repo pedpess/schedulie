@@ -1,18 +1,6 @@
 import React from 'react';
-import {
-  TextBold30,
-  TextRegular22,
-  TextMedium22,
-  TextBold16,
-} from '../components/Theme';
+import { Card } from '../components';
 
-export function OpeningHours(): React.ReactElement {
-  return (
-    <>
-      <TextBold30>Opening Hours</TextBold30>
-      <TextRegular22>Opening Hours</TextRegular22>
-      <TextMedium22>Opening Hours</TextMedium22>
-      <TextBold16>Opening Hours</TextBold16>
-    </>
-  );
-}
+export const OpeningHours: React.FC = () => {
+  return <Card headerTitle="Opening Hours" headerIcon />;
+};
