@@ -33,7 +33,7 @@ export const ListItem = styled.View`
   justify-content: space-between;
   padding-vertical: 10px;
   border-bottom-width: 0.5px;
-  border-color: ${Color.GREY_3};
+  border-color: ${Color.GREY_2};
 `;
 
 export const ListItemWrapper = styled.View`
