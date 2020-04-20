@@ -26,3 +26,9 @@ npx expo start
 ```
 
 A tab in your browser will open and from there your Expo server will be running. After that, you can pick the platform of your choice. The app can run on Android / iOS / Web.
+
+## License
+
+© Pedro Pessoa, 2020. Unauthorized use and/or duplication of this material without express and written permission from this text author and/or owner is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to Pedro Pessoa and with a reference to this gist link with appropriate direction to the original content.
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" /></a>
