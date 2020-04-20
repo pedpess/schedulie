@@ -18,12 +18,13 @@ export const Header = styled.View`
   flex-direction: row;
   align-items: center;
   margin-top: 30px;
+  border-bottom-width: 1px;
+  padding-bottom: 12px;
 `;
 
 export const List = styled.View`
-  border-top-width: 1px;
-  margin-top: 12px;
   margin-bottom: 30px;
+  flex: 1;
 `;
 
 export const ListItem = styled.View`
@@ -37,5 +38,12 @@ export const ListItem = styled.View`
 
 export const ListItemWrapper = styled.View`
   flex-direction: row;
+  justify-content: center;
   align-items: center;
+`;
+
+export const LoadingWrapper = styled.View`
+  justify-content: center;
+  align-items: center;
+  flex: 0.7;
 `;
