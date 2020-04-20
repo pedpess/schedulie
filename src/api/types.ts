@@ -1,14 +1,20 @@
-export interface Schedule {
-  monday: (OpeningHours | null)[];
-  tuesday: (OpeningHours | null)[];
-  wednesday: (OpeningHours | null)[];
-  thursday: (OpeningHours | null)[];
-  friday: (OpeningHours | null)[];
-  saturday: (OpeningHours | null)[];
-  sunday: (OpeningHours | null)[];
+export type WeekDay =
+  | 'monday'
+  | 'tuesday'
+  | 'wednesday'
+  | 'thursday'
+  | 'friday'
+  | 'saturday'
+  | 'sunday';
+
+export type OpenSchedule = {
+  type: Status;
+  value: number;
+};
+
+export enum Status {
+  OPEN = 'open',
+  CLOSE = 'close',
 }
 
-interface OpeningHours {
-  type: string;
-  value: number;
-}
+export type RemoteOpenScheduleData = { [key in WeekDay]: OpenSchedule[] };
