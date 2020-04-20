@@ -1,6 +1,6 @@
 # Schedulie
 
-A playground app that fetches a JSON file and displays the opening hours :clock:. Built with: [React Native](https://facebook.github.io/react-native/)
+A playground app that fetches a JSON file and displays the opening hours 🕒. Built with: [React Native](https://facebook.github.io/react-native/)
 
 ## Getting Started
 
